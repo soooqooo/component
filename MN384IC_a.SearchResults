@@ -1,0 +1,8 @@
+---- Get_Find_STR_Data Matches (7 in 5 files) ----
+Find_str.c (src):43:unsigned short int Get_Find_STR_Data(unsigned char* msg,NL_ROUNDBUF_T *round, int maxlen, unsigned char *h_str,unsigned char *h_end,int include_h, unsigned char *t_str,unsigned char *t_end,int include_t )
+Find_str.c (src):51:	printf("Get_Find_STR_Data start \n");
+Find_str.h (src):4:unsigned short int Get_Find_STR_Data(unsigned char* msg,NL_ROUNDBUF_T *round, int maxlen, unsigned char *h_str,unsigned char *h_end,int include_h, unsigned char *t_str,unsigned char *t_end,int include_t );
+Get_can.c (src):93:			while((i=Get_Find_STR_Data(msg,&canround, CAN_MSG_DEFAULT_LEN, NULL,NULL,0, "\r\n", NULL,0))>4)//ok
+Get_can.c (src):106:		      	//Get_Find_STR_Data(&canround, CAN_MSG_DEFAULT_LEN, NULL,NULL,0, "\r\n", NULL,1);//ok
+GET_FILE.c (src):92:		       Get_Find_STR_Data(&gpsround, MSG_DEFAULT_LEN, "$GPGGA",NULL,1, "$GPRMC", "\n",1);//ok
+Get_file.h (src):26://void Get_Find_STR_Data(NL_ROUNDBUF_T *round, int maxlen, unsigned char *h_str,unsigned char *h_end,int include_h, unsigned char *t_str,unsigned char *t_end,int include_t );

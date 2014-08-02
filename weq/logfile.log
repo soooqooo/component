@@ -1,0 +1,332 @@
+main start
+timer_init
+Creat_GET_FILE 
+leftlen is :256
+cntr=104get_can_data:
+313846463932443230306630633563333064303066666666da304346303034303066383764616330303030303066303932da313846453643443266666666666666666666666630303030da313846453643443266666666666666666666666630303030da
+cntr= 68
+NL_WriteBlockRoundBuf start 
+round->used 104
+NL_WriteBlockRoundBuf end
+Get_Tcp_Data start 
+get total
+h_msglen=0
+msglen=24
+
+get msg is : 1 8 F F 9 2 D 2 0 0 f 0 c 5 c 3 0 d 0 0 f f f f 
+recv111=
+
+get_flage_msglen=24
+get data is : 18FF92D200f0c5c30d00ffffitem->id_can = 18ff92d2 
+item->data_can[0] = 0 
+item->data_can[1] = f0 
+item->data_can[2] = c5 
+item->data_can[3] = c3 
+item->data_can[4] = d 
+item->data_can[5] = 0 
+item->data_can[6] = ff 
+item->data_can[7] = ff 
+msg[0]= 18 
+msg[1]= ff 
+msg[2]= 92 
+msg[3]= d2 
+msg[4]= 0 
+msg[5]= f0 
+msg[6]= c5 
+msg[7]= c3 
+msg[8]= d 
+msg[9]= 0 
+msg[10]= ff 
+msg[11]= ff 
+ADD_LINK_NOTE start*********
+Link_node_find start*********
+Get_Tcp_Data start 
+get total
+h_msglen=0
+msglen=24
+
+get msg is : 0 C F 0 0 4 0 0 f 8 7 d a c 0 0 0 0 0 0 f 0 9 2 
+recv111=
+
+get_flage_msglen=24
+get data is : 0CF00400f87dac000000f092item->id_can = cf00400 
+item->data_can[0] = f8 
+item->data_can[1] = 7d 
+item->data_can[2] = ac 
+item->data_can[3] = 0 
+item->data_can[4] = 0 
+item->data_can[5] = 0 
+item->data_can[6] = f0 
+item->data_can[7] = 92 
+msg[0]= c 
+msg[1]= f0 
+msg[2]= 4 
+msg[3]= 0 
+msg[4]= f8 
+msg[5]= 7d 
+msg[6]= ac 
+msg[7]= 0 
+msg[8]= 0 
+msg[9]= 0 
+msg[10]= f0 
+msg[11]= 92 
+ADD_LINK_NOTE start*********
+Link_node_find start*********
+Get_Tcp_Data start 
+get total
+h_msglen=0
+msglen=24
+
+get msg is : 1 8 F E 6 C D 2 f f f f f f f f f f f f 0 0 0 0 
+recv111=
+
+get_flage_msglen=24
+get data is : 18FE6CD2ffffffffffff0000item->id_can = 18fe6cd2 
+item->data_can[0] = ff 
+item->data_can[1] = ff 
+item->data_can[2] = ff 
+item->data_can[3] = ff 
+item->data_can[4] = ff 
+item->data_can[5] = ff 
+item->data_can[6] = 0 
+item->data_can[7] = 0 
+msg[0]= 18 
+msg[1]= fe 
+msg[2]= 6c 
+msg[3]= d2 
+msg[4]= ff 
+msg[5]= ff 
+msg[6]= ff 
+msg[7]= ff 
+msg[8]= ff 
+msg[9]= ff 
+msg[10]= 0 
+msg[11]= 0 
+ADD_LINK_NOTE start*********
+Link_node_find start*********
+Get_Tcp_Data start 
+get total
+h_msglen=0
+msglen=24
+
+get msg is : 1 8 F E 6 C D 2 f f f f f f f f f f f f 0 0 0 0 
+recv111=
+
+get_flage_msglen=24
+get data is : 18FE6CD2ffffffffffff0000item->id_can = 18fe6cd2 
+item->data_can[0] = ff 
+item->data_can[1] = ff 
+item->data_can[2] = ff 
+item->data_can[3] = ff 
+item->data_can[4] = ff 
+item->data_can[5] = ff 
+item->data_can[6] = 0 
+item->data_can[7] = 0 
+msg[0]= 18 
+msg[1]= fe 
+msg[2]= 6c 
+msg[3]= d2 
+msg[4]= ff 
+msg[5]= ff 
+msg[6]= ff 
+msg[7]= ff 
+msg[8]= ff 
+msg[9]= ff 
+msg[10]= 0 
+msg[11]= 0 
+ADD_LINK_NOTE start*********
+Link_node_find start*********
+Get_Tcp_Data start 
+cant_find msglen=0
+find can_data over :
+p[1] = 0x2      check_sum= 0x2
+p[2] = 0x0      check_sum= 0x2
+p[3] = 0x1      check_sum= 0x3
+p[4] = 0x0      check_sum= 0x3
+p[5] = 0xc      check_sum= 0xf
+p[6] = 0x18      check_sum= 0x17
+p[7] = 0xff      check_sum= 0xe8
+p[8] = 0x92      check_sum= 0x7a
+p[9] = 0xd2      check_sum= 0xa8
+p[10] = 0x0      check_sum= 0xa8
+p[11] = 0xf0      check_sum= 0x58
+p[12] = 0xc5      check_sum= 0x9d
+p[13] = 0xc3      check_sum= 0x5e
+p[14] = 0xd      check_sum= 0x53
+p[15] = 0x0      check_sum= 0x53
+p[16] = 0xff      check_sum= 0xac
+p[17] = 0xff      check_sum= 0x53
+send_msg->msg[0] = 0x7esend_msg->msg[1] = 0x2send_msg->msg[2] = 0x0send_msg->msg[3] = 0x1send_msg->msg[4] = 0x0send_msg->msg[5] = 0xcsend_msg->msg[6] = 0x18send_msg->msg[7] = 0xffsend_msg->msg[8] = 0x92send_msg->msg[9] = 0xd2send_msg->msg[10] = 0x0send_msg->msg[11] = 0xf0send_msg->msg[12] = 0xc5send_msg->msg[13] = 0xc3send_msg->msg[14] = 0xdsend_msg->msg[15] = 0x0send_msg->msg[16] = 0xffsend_msg->msg[17] = 0xffsend_msg->msg[18] = 0x53send_msg->msg[19] = 0x7esend_msg->msg[20] = 0x7esend_msg[0] = 7e  
+send_msg[1] = 2  
+send_msg[2] = 0  
+send_msg[3] = 1  
+send_msg[4] = 0  
+send_msg[5] = c  
+send_msg[6] = 18  
+send_msg[7] = ff  
+send_msg[8] = 92  
+send_msg[9] = d2  
+send_msg[10] = 0  
+send_msg[11] = f0  
+send_msg[12] = c5  
+send_msg[13] = c3  
+send_msg[14] = d  
+send_msg[15] = 0  
+send_msg[16] = ff  
+send_msg[17] = ff  
+send_msg[18] = 53  
+send_msg[19] = 7e  
+send_msg[20] = 7e  
+local time is Wed Oct 10 18:57:45 2012
+
+write SEND_FILE timer  2012-10-10 18:57:45 ;
+write SEND_FILE total data 
+DEl_LINK_NOTE start********
+Link_node_find start*********
+free(p3) is 
+p3 is 9c32a78
+DEl_LINK_NOTE end*********
+p[1] = 0x2      check_sum= 0x2
+p[2] = 0x0      check_sum= 0x2
+p[3] = 0x2      check_sum= 0x0
+p[4] = 0x0      check_sum= 0x0
+p[5] = 0xc      check_sum= 0xc
+p[6] = 0xc      check_sum= 0x0
+p[7] = 0xf0      check_sum= 0xf0
+p[8] = 0x4      check_sum= 0xf4
+p[9] = 0x0      check_sum= 0xf4
+p[10] = 0xf8      check_sum= 0xc
+p[11] = 0x7d      check_sum= 0x71
+p[12] = 0xac      check_sum= 0xdd
+p[13] = 0x0      check_sum= 0xdd
+p[14] = 0x0      check_sum= 0xdd
+p[15] = 0x0      check_sum= 0xdd
+p[16] = 0xf0      check_sum= 0x2d
+p[17] = 0x92      check_sum= 0xbf
+send_msg->msg[0] = 0x7esend_msg->msg[1] = 0x2send_msg->msg[2] = 0x0send_msg->msg[3] = 0x2send_msg->msg[4] = 0x0send_msg->msg[5] = 0xcsend_msg->msg[6] = 0xcsend_msg->msg[7] = 0xf0send_msg->msg[8] = 0x4send_msg->msg[9] = 0x0send_msg->msg[10] = 0xf8send_msg->msg[11] = 0x7dsend_msg->msg[12] = 0x1send_msg->msg[13] = 0xacsend_msg->msg[14] = 0x0send_msg->msg[15] = 0x0send_msg->msg[16] = 0x0send_msg->msg[17] = 0xf0send_msg->msg[18] = 0x92send_msg->msg[19] = 0xbfsend_msg->msg[20] = 0x7esend_msg->msg[21] = 0x7esend_msg[0] = 7e  
+send_msg[1] = 2  
+send_msg[2] = 0  
+send_msg[3] = 2  
+send_msg[4] = 0  
+send_msg[5] = c  
+send_msg[6] = c  
+send_msg[7] = f0  
+send_msg[8] = 4  
+send_msg[9] = 0  
+send_msg[10] = f8  
+send_msg[11] = 7d  
+send_msg[12] = 1  
+send_msg[13] = ac  
+send_msg[14] = 0  
+send_msg[15] = 0  
+send_msg[16] = 0  
+send_msg[17] = f0  
+send_msg[18] = 92  
+send_msg[19] = bf  
+send_msg[20] = 7e  
+send_msg[21] = 7e  
+local time is Wed Oct 10 18:57:46 2012
+
+write SEND_FILE timer  2012-10-10 18:57:46 ;
+write SEND_FILE total data 
+DEl_LINK_NOTE start********
+Link_node_find start*********
+free(p3) is 
+p3 is 9c32aa0
+DEl_LINK_NOTE end*********
+p[1] = 0x2      check_sum= 0x2
+p[2] = 0x0      check_sum= 0x2
+p[3] = 0x3      check_sum= 0x1
+p[4] = 0x0      check_sum= 0x1
+p[5] = 0xc      check_sum= 0xd
+p[6] = 0x18      check_sum= 0x15
+p[7] = 0xfe      check_sum= 0xeb
+p[8] = 0x6c      check_sum= 0x87
+p[9] = 0xd2      check_sum= 0x55
+p[10] = 0xff      check_sum= 0xaa
+p[11] = 0xff      check_sum= 0x55
+p[12] = 0xff      check_sum= 0xaa
+p[13] = 0xff      check_sum= 0x55
+p[14] = 0xff      check_sum= 0xaa
+p[15] = 0xff      check_sum= 0x55
+p[16] = 0x0      check_sum= 0x55
+p[17] = 0x0      check_sum= 0x55
+send_msg->msg[0] = 0x7esend_msg->msg[1] = 0x2send_msg->msg[2] = 0x0send_msg->msg[3] = 0x3send_msg->msg[4] = 0x0send_msg->msg[5] = 0xcsend_msg->msg[6] = 0x18send_msg->msg[7] = 0xfesend_msg->msg[8] = 0x6csend_msg->msg[9] = 0xd2send_msg->msg[10] = 0xffsend_msg->msg[11] = 0xffsend_msg->msg[12] = 0xffsend_msg->msg[13] = 0xffsend_msg->msg[14] = 0xffsend_msg->msg[15] = 0xffsend_msg->msg[16] = 0x0send_msg->msg[17] = 0x0send_msg->msg[18] = 0x55send_msg->msg[19] = 0x7esend_msg->msg[20] = 0x7esend_msg[0] = 7e  
+send_msg[1] = 2  
+send_msg[2] = 0  
+send_msg[3] = 3  
+send_msg[4] = 0  
+send_msg[5] = c  
+send_msg[6] = 18  
+send_msg[7] = fe  
+send_msg[8] = 6c  
+send_msg[9] = d2  
+send_msg[10] = ff  
+send_msg[11] = ff  
+send_msg[12] = ff  
+send_msg[13] = ff  
+send_msg[14] = ff  
+send_msg[15] = ff  
+send_msg[16] = 0  
+send_msg[17] = 0  
+send_msg[18] = 55  
+send_msg[19] = 7e  
+send_msg[20] = 7e  
+local time is Wed Oct 10 18:57:47 2012
+
+write SEND_FILE timer  2012-10-10 18:57:47 ;
+write SEND_FILE total data 
+DEl_LINK_NOTE start********
+Link_node_find start*********
+free(p3) is 
+p3 is 9c32ac8
+DEl_LINK_NOTE end*********
+p[1] = 0x2      check_sum= 0x2
+p[2] = 0x0      check_sum= 0x2
+p[3] = 0x4      check_sum= 0x6
+p[4] = 0x0      check_sum= 0x6
+p[5] = 0xc      check_sum= 0xa
+p[6] = 0x18      check_sum= 0x12
+p[7] = 0xfe      check_sum= 0xec
+p[8] = 0x6c      check_sum= 0x80
+p[9] = 0xd2      check_sum= 0x52
+p[10] = 0xff      check_sum= 0xad
+p[11] = 0xff      check_sum= 0x52
+p[12] = 0xff      check_sum= 0xad
+p[13] = 0xff      check_sum= 0x52
+p[14] = 0xff      check_sum= 0xad
+p[15] = 0xff      check_sum= 0x52
+p[16] = 0x0      check_sum= 0x52
+p[17] = 0x0      check_sum= 0x52
+send_msg->msg[0] = 0x7esend_msg->msg[1] = 0x2send_msg->msg[2] = 0x0send_msg->msg[3] = 0x4send_msg->msg[4] = 0x0send_msg->msg[5] = 0xcsend_msg->msg[6] = 0x18send_msg->msg[7] = 0xfesend_msg->msg[8] = 0x6csend_msg->msg[9] = 0xd2send_msg->msg[10] = 0xffsend_msg->msg[11] = 0xffsend_msg->msg[12] = 0xffsend_msg->msg[13] = 0xffsend_msg->msg[14] = 0xffsend_msg->msg[15] = 0xffsend_msg->msg[16] = 0x0send_msg->msg[17] = 0x0send_msg->msg[18] = 0x52send_msg->msg[19] = 0x7esend_msg->msg[20] = 0x7esend_msg[0] = 7e  
+send_msg[1] = 2  
+send_msg[2] = 0  
+send_msg[3] = 4  
+send_msg[4] = 0  
+send_msg[5] = c  
+send_msg[6] = 18  
+send_msg[7] = fe  
+send_msg[8] = 6c  
+send_msg[9] = d2  
+send_msg[10] = ff  
+send_msg[11] = ff  
+send_msg[12] = ff  
+send_msg[13] = ff  
+send_msg[14] = ff  
+send_msg[15] = ff  
+send_msg[16] = 0  
+send_msg[17] = 0  
+send_msg[18] = 52  
+send_msg[19] = 7e  
+send_msg[20] = 7e  
+local time is Wed Oct 10 18:57:48 2012
+
+write SEND_FILE timer  2012-10-10 18:57:48 ;
+write SEND_FILE total data 
+DEl_LINK_NOTE start********
+Link_node_find start*********
+free(p3) is 
+p3 is 9c32af0
+DEl_LINK_NOTE end*********
+leftlen is :256
+cntr=0read file_get_fifo over
